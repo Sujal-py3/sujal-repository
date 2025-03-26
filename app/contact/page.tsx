@@ -1,24 +1,24 @@
 "use client";
-import { Github, Mail, Linkedin } from "lucide-react";
+import { Github, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Linkedin size={20} />, 
-		href: "https://linkedin.com/in/sujal-singh-413264252/",
-		label: "LinkedIn",
-		handle: "Sujal Singh",
+		icon: <Twitter size={20} />,
+		href: "https://twitter.com/your_twitter_handle",
+		label: "Twitter",
+		handle: "@your_twitter_handle",
 	},
 	{
-		icon: <Mail size={20} />, 
+		icon: <Mail size={20} />,
 		href: "mailto:sujal3177@gmail.com",
 		label: "Email",
 		handle: "sujal3177@gmail.com",
 	},
 	{
-		icon: <Github size={20} />, 
+		icon: <Github size={20} />,
 		href: "https://github.com/Sujal-py3",
 		label: "Github",
 		handle: "Sujal-py3",
