@@ -12,13 +12,13 @@ const socials = [
 		handle: "Sujal Singh",
 	},
 	{
-		icon: <Mail size={20} />,
+		icon: <Mail size={20} />, 
 		href: "mailto:sujal3177@gmail.com",
 		label: "Email",
 		handle: "sujal3177@gmail.com",
 	},
 	{
-		icon: <Github size={20} />,
+		icon: <Github size={20} />, 
 		href: "https://github.com/Sujal-py3",
 		label: "Github",
 		handle: "Sujal-py3",
